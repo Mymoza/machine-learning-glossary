@@ -4,7 +4,7 @@ Machine Learning Glossary because it can get confusing between French and Englis
 
 * Feature = Primitive
 
-* Sample = exemple 
+* Sample = exemple  = observations = vecteur de features 
 
 * Classe 
 
