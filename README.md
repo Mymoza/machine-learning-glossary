@@ -41,11 +41,11 @@ Machine Learning Glossary because it can get confusing between French and Englis
 
 Read [(Wang, Qian, & Yu, 2017)](#wang-qian2017) to understand what properties are encoded in the speaker embeddings i, d, s, and i-s.
 
-* i-vectors : 
+* i-vectors : *Can encode the speaker identity to a large extent. GMM-UBM modelling on phonemes enables i-vector to encode the speech content, but the order of words cannot be encoded. Encode channel information.* 
 
-* d-vectors : neural networks based audio embeddings 
+* d-vectors : Neural networks based audio embeddings 
 
-* s-vectors : RNN/LSTM based sequence-vector (Wang, 2017). Refers to sequence-vector or summary-vector. 
+* s-vectors : *RNN/LSTM based sequence-vector. Refers to sequence-vector or summary-vector. Performs well on embedding the speech content and word order. Encode channel information.* (Wang, 2017)
 
 * i-s-vectors : Proposed in [(Wang, Qian, & Yu, 2017)](#wang-qian2017)
 
@@ -58,9 +58,16 @@ Read [(Wang, Qian, & Yu, 2017)](#wang-qian2017) to understand what properties ar
 
 * Audio embeddings : Captures in a low-dimensional space information in the audio
 
+* Enrollments 
+
+* Trials 
+
 ## Metrics 
 
 * Diarization Error Rate (DER) 
+
+* (EER)
+
 # References
 
 * <a name="bredin2017"></a>Bredin, H. (2017). pyannote.metrics: A Toolkit for Reproducible Evaluation, Diagnostic, and Error Analysis of Speaker Diarization Systems. Dans Interspeech 2017 (pp. 3587‑3591). ISCA. https://doi.org/10.21437/Interspeech.2017-411
