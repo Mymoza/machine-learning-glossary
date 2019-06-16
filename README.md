@@ -1,4 +1,4 @@
-# machine-learning-glossary
+# Machine Learning Glossary
 Machine Learning Glossary because it can get confusing between French and English words 
 
 
