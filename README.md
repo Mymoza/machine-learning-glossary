@@ -62,6 +62,14 @@ Read [(Wang, Qian, & Yu, 2017)](#wang-qian2017) to understand what properties ar
 
 * Trials 
 
+* Affinity matrix 
+
+* Similarity matrix 
+
+* Utterances 
+
+* Segments 
+
 ## Metrics 
 
 * Diarization Error Rate (DER) 
