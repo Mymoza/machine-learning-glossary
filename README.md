@@ -58,6 +58,8 @@ Read [(Wang, Qian, & Yu, 2017)](#wang-qian2017) to understand what properties ar
 
 * Audio embeddings : Captures in a low-dimensional space information in the audio
 
+* Speaker Turn Embeddings 
+
 * Enrollments 
 
 * Trials 
@@ -69,6 +71,12 @@ Read [(Wang, Qian, & Yu, 2017)](#wang-qian2017) to understand what properties ar
 * Utterances 
 
 * Segments 
+
+* Clustering methods 
+  * Hierarchical Clustering
+    * Agglomerative (Bottom-Up)
+    * Divisive (Top-Down)
+  * Affinity Propagation 
 
 ## Metrics 
 
@@ -87,3 +95,6 @@ Read [(Wang, Qian, & Yu, 2017)](#wang-qian2017) to understand what properties ar
 * <a name="reynolds2000"></a> Reynolds, D. A., Quatieri, T. F., & Dunn, R. B. (2000). Speaker verification using Adapted Gaussian mixture models. Dans Digital Signal Processing (p. 2000).
 
 
+# Resources 
+
+* [Google Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/)
