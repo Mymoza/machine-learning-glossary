@@ -81,11 +81,13 @@ Read [(Wang, Qian, & Yu, 2017)](#wang-qian2017) to understand what properties ar
 ## Metrics 
 
 * Diarization Error Rate (DER) 
-  * Miss Rate: Also include errors coming from overlapping speech in the case of miss-detecting speakers [5].
-  * False alarm rate: Also include errors coming from overlapping speech in the case of over-detecting speakers [5].
+  * Miss Rate: Also include errors coming from overlapping speech in the case of miss-detecting speakers [(Delgado Flores, 2015)](#delgado2015).
+  * False alarm rate: Also include errors coming from overlapping speech in the case of over-detecting speakers [(Delgado Flores, 2015)](#delgado2015).
   * Speaker Error Rate:
 
-* (EER)
+* Equal Error Rate (EER)
+
+* BLEU Score
 
 # References
 
@@ -97,7 +99,7 @@ Read [(Wang, Qian, & Yu, 2017)](#wang-qian2017) to understand what properties ar
 
 4. <a name="reynolds2000"></a> Reynolds, D. A., Quatieri, T. F., & Dunn, R. B. (2000). Speaker verification using Adapted Gaussian mixture models. Dans Digital Signal Processing (p. 2000).
 
-[5] Delgado Flores, H. (2015). Fast Cross-Session Speaker Diarization. Universitat Autonoma De Barcelona, Barcelone. Repéré à https://www.tdx.cat/bitstream/handle/10803/309290/hdf1de1.pdf?sequence=1&isAllowed=y
+5. <a name="delgado2015"></a> Delgado Flores, H. (2015). Fast Cross-Session Speaker Diarization. Universitat Autonoma De Barcelona, Barcelone. Repéré à https://www.tdx.cat/bitstream/handle/10803/309290/hdf1de1.pdf?sequence=1&isAllowed=y
 
 
 # Resources 
