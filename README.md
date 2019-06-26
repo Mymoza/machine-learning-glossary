@@ -81,18 +81,23 @@ Read [(Wang, Qian, & Yu, 2017)](#wang-qian2017) to understand what properties ar
 ## Metrics 
 
 * Diarization Error Rate (DER) 
+  * Miss Rate: Also include errors coming from overlapping speech in the case of miss-detecting speakers [5].
+  * False alarm rate: Also include errors coming from overlapping speech in the case of over-detecting speakers [5].
+  * Speaker Error Rate:
 
 * (EER)
 
 # References
 
-* <a name="bredin2017"></a>Bredin, H. (2017). pyannote.metrics: A Toolkit for Reproducible Evaluation, Diagnostic, and Error Analysis of Speaker Diarization Systems. Dans Interspeech 2017 (pp. 3587‑3591). ISCA. https://doi.org/10.21437/Interspeech.2017-411
+1. <a name="bredin2017"></a>Bredin, H. (2017). pyannote.metrics: A Toolkit for Reproducible Evaluation, Diagnostic, and Error Analysis of Speaker Diarization Systems. Dans Interspeech 2017 (pp. 3587‑3591). ISCA. https://doi.org/10.21437/Interspeech.2017-411
 
-* <a name="wang2017"></a>Wang, Q., Downey, C., Wan, L., Mansfield, P. A., & Moreno, I. L. (2017). Speaker Diarization with LSTM. arXiv:1710.10468 [cs, eess, stat]. Repéré à http://arxiv.org/abs/1710.10468
+2. <a name="wang2017"></a>Wang, Q., Downey, C., Wan, L., Mansfield, P. A., & Moreno, I. L. (2017). Speaker Diarization with LSTM. arXiv:1710.10468 [cs, eess, stat]. Repéré à http://arxiv.org/abs/1710.10468
 
-* <a name="wang-qian2017"></a> Wang, S., Qian, Y., & Yu, K. (2017). What Does the Speaker Embedding Encode? Dans INTERSPEECH. https://doi.org/10.21437/Interspeech.2017-1125
+3. <a name="wang-qian2017"></a> Wang, S., Qian, Y., & Yu, K. (2017). What Does the Speaker Embedding Encode? Dans INTERSPEECH. https://doi.org/10.21437/Interspeech.2017-1125
 
-* <a name="reynolds2000"></a> Reynolds, D. A., Quatieri, T. F., & Dunn, R. B. (2000). Speaker verification using Adapted Gaussian mixture models. Dans Digital Signal Processing (p. 2000).
+4. <a name="reynolds2000"></a> Reynolds, D. A., Quatieri, T. F., & Dunn, R. B. (2000). Speaker verification using Adapted Gaussian mixture models. Dans Digital Signal Processing (p. 2000).
+
+[5] Delgado Flores, H. (2015). Fast Cross-Session Speaker Diarization. Universitat Autonoma De Barcelona, Barcelone. Repéré à https://www.tdx.cat/bitstream/handle/10803/309290/hdf1de1.pdf?sequence=1&isAllowed=y
 
 
 # Resources 
