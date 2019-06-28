@@ -87,6 +87,8 @@ Read [(Wang, Qian, & Yu, 2017)](#wang-qian2017) to understand what properties ar
 
 * Equal Error Rate (EER)
 
+* Real Time Factor (xRT): Total time taken by the system to process the input data (excluding feature extraction) divided by the speech time (duration of the portions of the input audio labeled as speech) [(Delgado Flores, 2015)](#delgado2015)
+
 * BLEU Score
 
 # References
